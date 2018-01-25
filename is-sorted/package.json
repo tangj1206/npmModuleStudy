@@ -26,5 +26,7 @@
   },
   "homepage": "https://github.com/tangj1206/npmModuleStudy#readme",
   "dependencies": {},
-  "devDependencies": {}
+  "devDependencies": {
+    "tape": "^4.8.0"
+  }
 }
