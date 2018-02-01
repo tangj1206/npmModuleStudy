@@ -21,5 +21,6 @@ module.exports = function arrayFirst(arr, num){
     if (+num === 1 || num == null) {
         return first[0];
     }
+    
     return first;
 }
