@@ -27,5 +27,6 @@ module.exports = function (arr, n) {
     while (n--) {
         res[n] = arr[--len];
     }
+    
     return res;
 }
