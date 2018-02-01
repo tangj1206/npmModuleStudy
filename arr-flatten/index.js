@@ -17,7 +17,7 @@ function flat(arr, res) {
         cur;
     for (; i < arr.length; i++) {
         cur = arr[i];
-        Array.isArray(cur) ? flat(cur, res) :res.push(cur);
+        Array.isArray(cur) ? flat(cur, res) :res.push(cur); 
     }
     return res;
 }
