@@ -1,0 +1,37 @@
+{
+  "name": "map-array",
+  "version": "1.2.1",
+  "description": "Map object keys and values into an array",
+  "repository": "parro-it/map-array",
+  "license": "MIT",
+  "author": "Andrea Parodi <andrea@parro.it>",
+  "scripts": {
+    "build": "rollup -c",
+    "test": "rollup -c && ava && xo --ignore index.js"
+  },
+  "keywords": [
+    "iterate",
+    "iterator",
+    "key",
+    "keys",
+    "map",
+    "arr",
+    "array",
+    "val",
+    "value",
+    "values"
+  ],
+  "engines": {
+    "node": ">=4"
+  },
+  "devDependencies": {
+    "map-obj": "^2.0.0",
+    "mocha": "^2.4.5"
+  },
+  "files": [
+    "index.js"
+  ],
+  "dependencies": {
+    
+  }
+}
