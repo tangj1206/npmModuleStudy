@@ -1,19 +1,21 @@
-var clean = require('to-no-case');
+var clean = require('to-no-case')
 
 /**
- *  Export.
+ * Export.
  */
 
- module.exports = toSpaceCase;
+module.exports = toSpaceCase
 
- /**    
-  * Convert a  `string` to space case
-  * 
-  * @param {String} string
-  * @return {String}
-  */
- function toSpaceCase(string){
-     return clean(string).replace(/[\w_]+(.|$)/g,function(matches,match){
-         return match ? ' ' + match :''
-     }).trim()
- }
+/**
+ * Convert a `string` to space case.
+ *
+ * @param {String} string
+ * @return {String}
+ */
+
+function toSpaceCase(string) {
+    return clean(string).replace(/[\W_]+(.|$)/g, function (matches, match) {
+        return match ? ' ' + match : ''
+    }).trim()
+}
+
